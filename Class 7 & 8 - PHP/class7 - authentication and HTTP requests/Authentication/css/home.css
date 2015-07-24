@@ -1,0 +1,68 @@
+div.clear{
+	clear: both;
+}
+div.container{
+	width:960px;
+	margin-left: auto;
+    margin-right: auto;
+}
+nav img#logo{
+	height: 70px;
+	width: 125px;
+	float: left;
+	border: solid black 1px;
+}
+h1{
+	width:380px;
+	height: 70px;
+	float: left;
+	padding-left:150px;
+	margin: 0px;
+	border: solid black 1px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+div#logout-Status{
+	width: 229px;
+	height: 70px;
+	float: left;
+	padding-left:50px;
+	border: solid black 1px;
+}
+/* ARTICLE */
+article{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: solid black 1px;
+	padding: 10px;
+}
+section p, h2{
+	display: inline;
+	float: left;
+}
+article img{
+	height:225px;
+	width:150px;
+	float: left;
+}
+
+/* FOOTER */
+footer{
+	border: solid black 1px;
+}
+footer p{
+	float:left;
+	padding-left: 10px; 
+}
+
+nav ul{
+	list-style-type: none;
+	float: left;
+	padding-left: none;
+	margin-left: 180px;
+}
+
+nav ul li{
+	display: inline;
+	padding-left: 30px;
+}

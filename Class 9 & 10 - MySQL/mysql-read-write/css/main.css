@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+}
+div.container{
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+div.main{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+header h1{
+	text-align: center;	
+	margin-top: 0px;
+	margin-bottom: 30px;
+	padding: 20px 0 20px 0;
+}
+	header{
+		background-color: lightblue;
+	}
+section.post{
+	width:850px;
+	height: 60px;
+	border: 1px solid #000;
+	background-color: lightgrey;
+	padding: 0 5px 0 5px;
+}
+
+form#postTweet{
+	padding-top: 20px;
+}
+	input[type="text"]{
+		width:650px;
+	}
+
+div.tweet{
+	width:650px;
+	float:left;
+	border: 1px solid #000;
+	padding: 0 5px 0 5px;
+	margin: 10px 0 10px 0; 
+}
+	div.tweet p#timeStamp{
+		font-size: 12px;
+	}
+div.flag, div.controls{
+	float: left;
+	margin: 31px;
+}
+	div.controls{
+		margin: 10px;
+		padding-top: 0px;
+	}
+	div.controls input[type="submit"]{
+		margin-bottom: 5px;
+	}
+p#flagNote{
+	color:red;
+	margin: 10px 0 10px 0;
+}
+

@@ -1,0 +1,158 @@
+div.container{
+	width:960px;
+	margin: 0 auto;
+}
+div.clear{
+	clear: both;
+}
+
+ul{
+	list-style: none;
+	/**padding-left: 0px;**/
+
+}
+header{
+	background-color: tan;
+}
+header img#logo{
+	width:100px;
+	height:30.25px;
+	margin: 0 auto;
+	padding-left: 420px;
+
+}
+header p{
+	font-size: 11px;
+	margin:0;
+	float: right;
+	margin-right:40px; 
+}
+
+.acctLocation ul li{
+	font-size: 10px;
+	float: left;
+	padding-right: 200px;
+	margin-bottom: 10px;
+}
+.acctLocation ul li#ri{
+	padding-right: 0px;
+	padding-left: 350px;
+}
+	.acctLocation img{
+		width:11px;
+		height:6.5px;
+	}
+
+
+nav ul.mainNav li, nav ul.cart li{
+	float: left;
+	display: inline;
+	font-size: 12px;
+	padding-right:15px;
+}
+	nav ul.cart li{
+		float: right;
+	}
+		/*nav ul.cart li:last-child{
+			padding-right:0px;
+		}*/
+	nav ul.cart{
+		margin-right: 40px;
+	}
+
+section ul.filter li{
+	display: inline;
+	padding-right: 20px;
+}
+	section ul.filter{
+		margin-left: 190px;
+		width: 960px;
+		border: grey;
+	}
+section img#slider{
+	width: 960px;
+}
+article.products{
+	display: inline-block;
+}
+	article.products img{
+		width: 300px;
+		margin: 8px;
+		display: block;
+	}
+	article.products p{
+		display: inline;
+	}
+	article.products.last img{
+		margin-right: 0px;
+	}
+	article.products.first img{
+		margin-left: 0px;
+	}
+div.productContent{
+	border-top: 1px solid #000;
+}
+	div.productContent a{
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		color:#000;
+	}
+	div.productContent span{
+		border: 1px solid #000;
+		padding: 0 5px;
+	}
+	div.productContent a:hover{
+		color:blue;
+	}
+ul.productDetails{
+	padding-left: 0px;	
+}
+
+div.col1,div.col2,div.col3{
+	width: 200px;
+	display: block;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+	div.col1{
+		margin-left: 0px;
+	}
+/*	div.col3{
+		margin-right: 0px;
+	}*/
+	div.col4{
+		width:310px;
+		display: block;
+		float: left;
+	}
+	section.mailList{
+		margin-top: 16px;
+	}
+	ul.helperLinks{
+	padding-left: 0px;
+	}
+footer.primary-footerNav{
+	border-top: 1px solid grey;
+	margin-top: 60px;
+}
+footer li.listTitle {
+	font-weight: bold;
+}
+nav ul.secondary-footerNav{
+	padding-left: 0px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+nav ul.secondary-footerNav li{
+	display: inline;
+	padding: 0 7px 0 7px;
+	font-size: 12px;
+	vertical-align: middle; 
+}
+nav ul.secondary-footerNav li#jLink{
+	font-size: 1em;
+}
+
+
+

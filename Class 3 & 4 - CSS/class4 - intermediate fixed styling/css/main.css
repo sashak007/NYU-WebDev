@@ -1,0 +1,109 @@
+div.clear{
+	clear: both;
+}
+div.container{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body ul{
+	list-style-type:none;
+	padding: 0px; 
+}
+h2{
+	color:#6C6E95;
+	font-size: 1.2em;
+	font-family: Arial, sans-serif;
+}
+
+header ul li{
+	display: inline;
+}
+	header ul.social, header ul.mainNav{
+		float:left;
+		margin-bottom: 0px;
+	}
+	ul.social li img{
+		width:16px;
+		height: 16px;
+	}
+	header ul.social{
+		margin-left: 203px;
+	}
+	div.navHead{
+		margin-left: 230px;
+	}
+	div.navHead li{
+		font-size: .8em;
+	}
+	div.navHead{
+		border-bottom: 1px solid #000;
+	}
+
+section#hero{
+	margin-top: 20px;
+}
+
+img#logo{
+	width:295px;
+	height:152px;
+	margin-left: 100px;
+}
+article{
+	width: 468px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+	article ul li{		/* Why doesn't 'nav ul.article-pag' li work? */
+		display:inline;
+	}
+
+aside.left-col{
+	position: relative;
+	top:-80px;
+	width: 160px;
+	margin-right: 8px;
+
+}
+	aside.left-col ul li{
+		text-align: right;
+	}
+	/*aside.left-col ul,section.right-col ul{
+		border-top: 3px solid #6C6E95;
+	}*/
+	span, div#bannerAd-sq{
+		border-top: 3px solid #6C6E95;
+	}
+	div#bannerAd-sq{
+		padding-top: 10px;
+	}
+
+
+section.right-col{
+	position: relative;
+	top:-120px;
+	width: 300px;
+	margin-left: 8px;
+
+}
+	section.right-col{
+		float:right;
+	}
+	form{
+		margin-bottom: 10px;
+	}
+	div#bannerAd-sq{
+		width:100%;
+		margin-bottom: 10px;
+	}
+aside.left-col, article{
+	float:left;
+}
+
+section.hl-articles{
+	border-top: 3px solid #6C6E95;
+}
+h2.contentPiece{
+	margin-top: 0px;
+}
+

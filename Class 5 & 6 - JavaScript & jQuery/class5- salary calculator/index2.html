@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Nicer Calculator</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/main2.css" />
+		<script type="text/javascript" src="js/main2.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+					<h1>Payroll</h1>
+			</header>
+			<section id="timesheet_section">
+				<h2>Timesheet</h2>
+				<p>Enter the hours you worked for the past week:</p>
+				<form>
+					<label for="day1">Monday</label>
+					<input type="number" id="day1" placeholder="0"/>
+					<br />
+
+					<label for="day2">Tuesday</label>
+					<input type="number" id="day2" placeholder="0" />
+					<br />
+					
+					<label for="day3">Wednesday</label>
+					<input type="number" id="day3" placeholder="0" />
+					<br />
+					
+					<label for="day4">Thursday</label>
+					<input type="number" id="day4" placeholder="0" />
+						<br />
+					
+					<label for="day5">Friday</label>
+					<input type="number" id="day5" placeholder="0" />
+						<br />
+					
+					<label for="day6">Saturday</label>
+					<input type="number" id="day6" placeholder="0" />
+						<br />
+					
+					<label for="day7">Sunday</label>
+					<input type="number" id="day7" placeholder="0" />
+					<br />
+					
+					<input type="button" value="Calculate Pay" onclick="calculatePay();" />
+						</td>
+					</tr>
+				</table>
+				</form>
+			</section>
+			<section id="pay_section">
+				<h2>This week's pay</h2>
+				<article id="total">
+					<p>Please fill out the form on the left</p>
+					<span class="total_number">$0</span>
+				</article>
+			</section>
+
+			<div class="clear"></div>
+
+		</div><!-- //.container -->
+</html>

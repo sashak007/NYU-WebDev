@@ -1,0 +1,12 @@
+body{
+	background-color: purple;
+}
+
+h1,p{
+	color:white;
+}
+
+img{
+	height: 400px;
+	width: 400px;
+}
